@@ -1,0 +1,28 @@
+/* Main Menu Styling */
+body{
+  background: url('img/sun.jpg');
+  background-size: contain;
+  height: 1000vh;
+}
+li {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  margin: 1%;
+  margin-top: 15%;
+  border: 2px solid black;
+
+}
+ul li p {
+  padding: 15%;
+  margin: 0;
+  background-color: #3c3b5f;
+  color: #ffcb84;
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  transition: background-color 1000ms;
+}
+.red {
+  background-color:#fd8a53;
+  transition: background-color 1000ms;
+}
